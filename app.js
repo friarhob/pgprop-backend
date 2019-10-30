@@ -21,7 +21,7 @@ var app = express();
 app.use(cors());
 
 app.get('/', function(req, res) {
-    res.send(JSON.stringify({hello: "world"}));
+    res.send(JSON.stringify({hello: "World"}));
 });
 
 app.listen(port, function () {
